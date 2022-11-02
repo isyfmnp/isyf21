@@ -1,0 +1,42 @@
+<li> 
+ 	 <img data-src='images/Gallery/day4\food panda.JPG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\livestream 1.JPG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\livestream 2.JPG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\photographer.jpg' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Columba.PNG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Draco.PNG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Equuleus.PNG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Hercules.png' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Lyra.png' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Monoceros.png' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Orion.png' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Pegasus.PNG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Vela.PNG' height='data-height' width='data-width' uk-img />
+</li>
+<li> 
+ 	 <img data-src='images/Gallery/day4\TPC_Aquila.jpeg' height='data-height' width='data-width' uk-img />
+</li>

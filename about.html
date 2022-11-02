@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html class="uk-overflow-hidden">
+    <head>
+        <link rel="icon" href="images\logos\logo_contrast.png">
+        <title>ISYF 2021</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.isyf-theme.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link type="text/css" href="node_modules/overlayscrollbars/css/OverlayScrollbars.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body class='disable-select'>
+        <div id='top_sec' uk-grid>
+            <div class='uk-width-auto'>
+                <img style='padding-top: 5px;' data-src='images/logos/logo_yellow.png' height='75px' width="75px" uk-img>
+            </div>  
+            <div class="uk-width-expand uk-position-relative uk-flex uk-background-cover" data-src='images/about_image.png' style='border-bottom: 20px solid #404040; background-color: #404040;' uk-height-viewport="offset-bottom: 10" uk-parallax='bgy: -200' uk-img>
+
+                <div class='uk-position-bottom uk-padding uk-margin-bottom'>
+                    <h3 class='uk-padding-small uk-text-bold uk-padding-remove-bottom uk-margin-remove-top uk-margin-remove-bottom uk-visible@m' style='color: white; width: max-content;'>Our theme</h3>
+                    <h4 class='uk-padding-small uk-text-bold uk-padding-remove-bottom uk-margin-remove-top uk-margin-remove-bottom uk-hidden@m' style='color: white; width: max-content;'>Our theme</h4>
+                    <div>
+                        <div class="uk-margin-left uk-visible@s">
+                            <div>
+                                <h1 class='uk-inline uk-heading-medium uk-padding-remove-right uk-text-bold uk-padding-remove-left uk-padding-small uk-padding-remove-bottom uk-margin-remove-bottom uk-margin-remove-top uk-padding-remove-top' style='color: white; width: max-content;'> <span style='color: #FFB400'>■</span> Post-Pandemic&nbsp;</h1>
+                                <h1  class='uk-inline uk-heading-medium uk-text-bold uk-padding-remove-left uk-padding-small uk-padding-remove-bottom uk-margin-remove-top uk-margin-remove-bottom uk-padding-remove-top' style='color: white; width: max-content;'>Science:</h1>
+                            </div>
+                            <div class='uk-width-expand uk-padding-remove-left uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-margin'>
+                                <h1 class='uk-heading-medium uk-text-bold uk-inline-block uk-margin-remove-bottom' style='color: white; width: max-content;'>Navigating&nbsp;</h1>
+                                <h1 class='uk-heading-medium uk-text-bold uk-inline-block uk-margin-remove-top uk-margin-remove-bottom' style='color: #FFB400; width: max-content;'>Uncharted Waters</h1>
+                            </div>
+                        </div>
+
+                        <div class="uk-margin-left uk-hidden@s">
+                            <div>
+                                <h2 class='uk-inline uk-heading-bullet uk-padding-remove-right uk-text-bold uk-padding-remove-left uk-padding-small uk-padding-remove-bottom uk-margin-remove-bottom uk-margin-remove-top uk-padding-remove-top' style='color: white; width: max-content;'>Post-Pandemic&nbsp;</h2>
+                                <h2  class='uk-inline uk-text-bold uk-padding-remove-left uk-padding-small uk-padding-remove-bottom uk-margin-remove-top uk-margin-remove-bottom uk-padding-remove-top' style='color: white; width: max-content;'>Science:</h2>
+                            </div>
+                            <div class='uk-width-expand uk-padding-remove-left uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-margin'>
+                                <h2 class='uk-text-bold uk-inline-block uk-margin-remove-bottom' style='color: #FFB400; width: max-content;'>Navigating&nbsp;</h2>
+                                <h2 class='uk-text-bold uk-inline-block uk-margin-remove-top uk-margin-remove-bottom' style='color: white; width: max-content;'>Unchared Waters</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='top_nav_container' class='uk-position-top uk-visible@m'>
+                    <nav class='uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left' uk-navbar>
+                        <div class="uk-navbar-left uk-padding-small uk-padding-remove-left">
+                            <ul class="uk-navbar-nav">
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="index.html">Home</a></li>
+                                <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize; border-color: #FFB400;' href="about.html">About</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="programmes.html">Programmes</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="profiles_speakers.html"  onmouseover='showProfiles("profilesBar")'>Profiles</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="media_gallery.html" onmouseover='showProfiles("mediaBar")'>Media</a></li>
+                                <li class='uk-text-bold '><a style='text-transform: capitalize;' href="info.html">Info</a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-navbar-right uk-padding-small uk-padding-remove-right">
+                            <ul id='icon_list' class="uk-iconnav">
+                                <li><a href="https://www.facebook.com/isyfdigital.2021" class="uk-margin-small-right" style="padding: 10px; border-radius: 15px; background-color: #BFBFBF; color: #404040;" uk-icon="facebook"></a></li>
+                                <li><a href="https://www.instagram.com/isyf.2021/" class="uk-margin-small-right" style="padding: 10px; border-radius: 15px; background-color: #BFBFBF; color: #404040;" uk-icon="instagram"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCs9CbJcxC2x8OPYiNx5QDTg" class="uk-margin-small-right" style="padding: 10px; border-radius: 15px; padding-bottom: 11px; background-color: #BFBFBF; color: #404040;" uk-icon="youtube"></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <nav id='profilesBar' onmouseleave="hideProfiles('profilesBar', color=['#BFBFBF', '#404040'])" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left' style="display: none;" uk-navbar>
+                        <div class="uk-navbar-left uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                            <ul class="uk-nav uk-inline">
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="profiles_speakers.html">Invited Speakers</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="profiles_participating_schools.html">Participating Schools</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="profiles_organising_committee.html">Organising Committees</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav id='mediaBar' onmouseleave="hideProfiles('mediaBar', color=['#BFBFBF', '#404040'])" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left uk-visible@m' style="display: none;" uk-navbar>
+                        <div class="uk-navbar-left uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                            <ul class="uk-nav uk-inline">
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="media_gallery.html">Gallery</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="media_posters.html">Poster Exhibition</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                
+                <span  href="#offcanvas-slide" class="uk-button uk-hidden@m uk-padding-small" style="color: white; height: fit-content;" uk-toggle uk-icon="icon: menu; ratio: 1.5;"></span>
+
+                <div id="offcanvas-slide" uk-offcanvas>
+                    <div class="uk-offcanvas-bar">
+                        <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true">
+                            <li class='uk-text-bold uk-active uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="index.html">Home</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="about.html">About</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px; background-color: #FFB400;"></div>
+                                </div>
+                            </li>
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="programmes.html">Programmes</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom uk-parent'>
+                                <a style='text-transform: capitalize; color: white;' href="#">Profiles</a>
+                                <ul class="uk-nav-sub uk-margin-small-top">
+                                    <li>
+                                        <div class='uk-inline-block'>
+                                            <a href="profiles_speakers.html">Invited Speakers</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                    <li class='uk-margin-small-top'>
+                                        <div class='uk-inline-block'>
+                                            <a href='profiles_participating_schools.html'>Participating Schools</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                    <li class='uk-margin-small-top'>
+                                        <div class='uk-inline-block'>
+                                            <a href='profiles_organising_committee.html'>Organising Committees</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class='uk-text-bold uk-active uk-margin-large-right uk-margin-bottom uk-parent'>
+                                <a class='uk-inline' style='text-transform: capitalize;' href="media_gallery.html">Media</a>
+                                <ul class="uk-nav-sub uk-margin-small-top">
+                                    <li>
+                                        <div class='uk-inline-block'>
+                                            <a href="media_gallery.html">Gallery</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                    <li class='uk-margin-small-top'>
+                                        <div class='uk-inline-block'>
+                                            <a href="media_posters.html">Poster Exhibition</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="info.html">Info</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+
+                            <ul class="uk-iconnav uk-position-bottom uk-margin-bottom uk-margin-small-left">
+                                <li><a href="https://www.facebook.com/isyfdigital.2021" class="uk-margin-small-right" style="padding: 5px; border-radius: 15px; background-color:#BFBFBF; color: #404040;" uk-icon="facebook"></a></li>
+                                <li><a href="https://www.instagram.com/isyf.2021/" class="uk-margin-small-right" style="padding: 5px; border-radius: 15px; background-color:#BFBFBF; color: #404040;" uk-icon="instagram"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCs9CbJcxC2x8OPYiNx5QDTg" class="uk-margin-small-right" style="padding: 5px; border-radius: 15px; background-color:#BFBFBF; color: #404040;" uk-icon="youtube"></a></li>
+                            </ul>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id='body_content_1' class="uk-section uk-margin-large-top uk-margin-large-bottom">
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+
+                <div id='icon_left' class='uk-width-auto uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-padding-remove-left" uk-grid>
+                    <div id='body_content_1_image_column' class='uk-width-1-2@m uk-padding-remove-left'>
+                        <!-- <div class='uk-inline uk-visible@m' style="width: 100%; min-height: 650px;">
+                            <img class='uk-position-top uk-position-center' src='images/atom.png' style='top:75px; width: 150px; height: 150px;'  uk-scrollspy="cls:uk-animation-fade;">
+                            <img class='uk-position-top uk-position-center' src='images/monkey.png' style='top:175px; width: 200px; height: 200px;' uk-scrollspy="cls:uk-animation-fade;">
+                            <img class='uk-position-top uk-position-center' src='images/person.png' style='top:308px; width: 250px; height: 250px;' uk-scrollspy="cls:uk-animation-fade;">
+                            <img class='uk-position-top uk-position-center' src='images/robot.png' style='top:475px; width: 300px; height: 300px;' uk-scrollspy="cls:uk-animation-fade;">
+                        </div>
+
+                        <div class='uk-inline uk-hidden@m' style="width: 100%; min-height: 350px;">
+                            <img class='uk-position-top uk-position-center' src='images/atom.png' style='top:33px; width: 75px; height: 75px;' uk-scrollspy="cls:uk-animation-fade;">
+                            <img class='uk-position-top uk-position-center' src='images/monkey.png' style='top:88px; width: 100px; height: 100px;' uk-scrollspy="cls:uk-animation-fade;">
+                            <img class='uk-position-top uk-position-center' src='images/person.png' style='top:154px; width: 125px; height: 125px;' uk-scrollspy="cls:uk-animation-fade;">
+                            <img class='uk-position-top uk-position-center' src='images/robot.png' style='top:237px; width: 150px; height: 150px;' uk-scrollspy="cls:uk-animation-fade;">
+                        </div> -->
+
+                        
+                        <div class='uk-container uk-inline uk-padding-remove-left uk-padding-remove-right uk-visible@m' style="width: 100%; height: 100%;">
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img data-src='images\theme_asset\background.png' style='width: 100%;' alt='' uk-img/>
+                            </div>
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img class='sweep' data-src='images\theme_asset\radar_sweep.png' style='width: 100%;' alt='' uk-img uk-scrollspy='cls: uk-animation-fade; delay: 600;'/>
+                            </div>
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img data-src='images\theme_asset\radar_lines.png' style='width: 100%;' alt='' uk-img/>
+                                <div class='uk-contaier uk-position-center' style='width: 90%; height: 100%;'>
+                                    <img class='uk-position-top-right' data-src="images\theme_asset\DNA.png" style='width: 15%; border: 5px solid #ffb400; background: #FFB400; border-radius: 100%; top: 20%; right: 20%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 200;'>
+                                    <img class='uk-position-top-left' data-src="images\theme_asset\atom.png" style='width: 20%; top: 20%; left: 20%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 400;'>
+                                    <img class='uk-position-bottom-left' data-src="images\theme_asset\infinity.png" style='width: 23%; border: 8px solid #ffb400; border-radius: 100%; background: #FFB400; bottom: 25%; left: 10%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 600;'>
+                                    <img class='uk-position-bottom-right' data-src="images\theme_asset\Nut.png" style='width: 23%; bottom: 12%; right: 25%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 800;'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='uk-container uk-inline uk-padding-remove-left uk-padding-remove-right uk-visible@s uk-hidden@m' style="width: 100%; height: 100%; min-height: 800px;">
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img data-src='images\theme_asset\background.png' style='width: 100%;' alt='' uk-img/>
+                            </div>
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img class='sweep' data-src='images\theme_asset\radar_sweep.png' style='width: 100%;' alt='' uk-img uk-scrollspy='cls: uk-animation-fade; delay: 600;'/>
+                            </div>
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img data-src='images\theme_asset\radar_lines.png' style='width: 100%;' alt='' uk-img/>
+                                <div class='uk-contaier uk-position-center' style='width: 90%; height: 100%;'>
+                                    <img class='uk-position-top-right' data-src="images\theme_asset\DNA.png" style='width: 15%; border: 5px solid #ffb400; background: #FFB400; border-radius: 100%; top: 20%; right: 20%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 200;'>
+                                    <img class='uk-position-top-left' data-src="images\theme_asset\atom.png" style='width: 20%; top: 20%; left: 20%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 400;'>
+                                    <img class='uk-position-bottom-left' data-src="images\theme_asset\infinity.png" style='width: 23%; border: 8px solid #ffb400; border-radius: 100%; background: #FFB400; bottom: 25%; left: 10%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 600;'>
+                                    <img class='uk-position-bottom-right' data-src="images\theme_asset\Nut.png" style='width: 23%; bottom: 12%; right: 25%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 800;'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='uk-container uk-inline uk-padding-remove-left uk-padding-remove-right uk-hidden@s' style="width: 100%; height: 100%; min-height: 500px;">
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img data-src='images\theme_asset\background.png' style='width: 100%;' alt='' uk-img/>
+                            </div>
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img class='sweep' data-src='images\theme_asset\radar_sweep.png' style='width: 100%;' alt='' uk-img uk-scrollspy='cls: uk-animation-fade; delay: 600;'/>
+                            </div>
+                            <div class='uk-position-center' style='width: 90%;'>
+                                <img data-src='images\theme_asset\radar_lines.png' style='width: 100%;' alt='' uk-img/>
+                                <div class='uk-contaier uk-position-center' style='width: 90%; height: 100%;'>
+                                    <img class='uk-position-top-right' data-src="images\theme_asset\DNA.png" style='width: 15%; border: 5px solid #ffb400; background: #FFB400; border-radius: 100%; top: 20%; right: 20%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 200;'>
+                                    <img class='uk-position-top-left' data-src="images\theme_asset\atom.png" style='width: 20%; top: 20%; left: 20%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 400;'>
+                                    <img class='uk-position-bottom-left' data-src="images\theme_asset\infinity.png" style='width: 23%; border: 8px solid #ffb400; border-radius: 100%; background: #FFB400; bottom: 25%; left: 10%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 600;'>
+                                    <img class='uk-position-bottom-right' data-src="images\theme_asset\Nut.png" style='width: 23%; bottom: 12%; right: 25%;' uk-img uk-img uk-scrollspy='cls: uk-animation-scale-up; delay: 800;'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id='body_content_1_text_column' class='uk-width-1-2@m' uk-scrollspy='cls:uk-animation-slide-right;'>
+                        <div class='uk-inline'>
+                            <div style='border-bottom: 20px solid transparent; border-right: 20px solid transparent;' class='uk-margin-top uk-margin-bottom uk-margin-right'>
+                                <h1 class='uk-text-bold uk-margin-remove-top'>About this year's theme</h1>
+                                <p class='uk-text-break uk-text-justify'>The COVID-19 pandemic has swept across the globe, throwing our lives into disarray. With
+                                    entire nations under lockdown and over a million lives lost, the livelihoods of many around the
+                                    globe have been unduly disrupted. Increasingly, we look to science to grapple with the
+                                    challenges and uncertainty brought about by the pandemic.</p>
+                                <p class='uk-text-break uk-text-justify'>In light of these constraints, ISYF is going digital! The theme for ISYF<em style="color: #676767;">digital</em> 2021 is
+                                    “Post-Pandemic Science: Navigating Uncharted Waters”, which highlights the evolving role of
+                                    science in the new normal that we are currently living in. Now, more than ever, we are
+                                    dependent on scientific innovations to help us address the new challenges brought about by the
+                                    COVID‐19 pandemic. With every second being crucial in saving lives, the progress of scientific
+                                    research has been accelerated to develop a cure for the virus. While nations closed their
+                                    borders, scientists shattered boundaries, creating opportunities for unprecedented international
+                                    cooperation.</p>
+                                <p class='uk-text-break uk-text-justify'>The pandemic has also accelerated the digital shift in our modern society. The pace of our work,
+                                    education and socialization into the digital space is seeing a major acceleration and may
+                                    change core aspects of our identities, as well as how we work, learn, and engage. While we
+                                    grapple with social distancing policies such as international border closures and lockdowns, we
+                                    are also racing against time to find and dispatch a safe and effective vaccine. Science is the
+                                    shining star that helps us navigate through dark waters. As we look towards a post-pandemic
+                                    world, we can start asking ourselves some pertinent questions. In what ways has the pandemic
+                                    affected scientific progress? Which areas of research are emerging now, and which others have
+                                    become less relevant? After this tumultuous journey ends, what will be the state of the world
+                                    that we live in when we step onto new shores? The challenge of humanity now is how to best
+                                    reap the fruits of science to prepare us for the opportunities of the future, in our quest to
+                                    conquer new frontiers.</p>
+                            </div>
+                            <div class='uk-position-bottom-right' style="background-color: transparent; border-bottom: 20px solid #FFB400; border-right: 20px solid #FFB400; height: 15%; width: 100%;" uk-scrollspy='cls:uk-animation-slide-top;'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            </div>
+        </div>
+
+        <!-- <div id='body_content_2' class="uk-section uk-padding-remove-top">
+            <div class='uk-grid uk-padding uk-padding-remove-top uk-padding-remove-left uk-padding-remove-right uk-margin-left uk-margin-remove-left'>
+
+                <div id='icon_left' class='uk-width-auto uk-padding-remove-left uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+
+                <div class='uk-width-expand uk-padding-remove-left'>
+                    <div>
+                        <h2 class='uk-text-bold uk-margin-left' uk-scrollspy="cls:uk-animation-slide-left;">Subthemes</h2>
+                        <div class="uk-grid-collapse uk-child-width-expand@s" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .card; delay: 300;">
+                            <div class="uk-background-secondary uk-padding card" style="border-bottom: 20px solid #404040;">
+                                <div>
+                                    <div class='uk-inline uk-margin-small-right' style="background-color: #FFB400; width: 20px; height: 20px;" ></div>
+                                    <h3 class="uk-inline uk-text-bold uk-margin-remove-top uk-margin-remove-bottom" style="color: #FFB400;">Manifesting Science</h3>
+                                </div>
+                                <p class="uk-light uk-text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Sed feugiat interdum suscipit. Maecenas fringilla leo eu semper tincidunt. Ut ut imperdiet risus. Suspendisse quis varius tortor. Vivamus at commodo nulla. Mauris tristique sed massa a tincidunt. Sed sit amet neque nec diam pretium consequat ac vel dolor. Maecenas ligula risus, tempus ut lectus blandit, placerat consectetur risus. Maecenas malesuada, ligula vel rutrum tincidunt, leo erat sollicitudin tortor, ac semper lorem nunc in lacus. Vestibulum tincidunt dignissim blandit. Donec nisi ipsum, mattis non lectus ac, ullamcorper egestas leo.</p>
+                            </div>
+                            <div class="uk-background-secondary uk-padding card" style="border-bottom: 20px solid #404040;">
+                                <div>
+                                    <div class='uk-inline uk-margin-small-right' style="background-color: white; width: 20px; height: 20px;" ></div>
+                                    <h3 class="uk-inline uk-text-bold uk-margin-remove-top uk-margin-remove-bottom" style="color: white;">Bridging Science and Society</h3>
+                                </div>
+                                <p class="uk-light uk-text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Sed feugiat interdum suscipit. Maecenas fringilla leo eu semper tincidunt. Ut ut imperdiet risus. Suspendisse quis varius tortor. Vivamus at commodo nulla. Mauris tristique sed massa a tincidunt. Sed sit amet neque nec diam pretium consequat ac vel dolor. Maecenas ligula risus, tempus ut lectus blandit, placerat consectetur risus. Maecenas malesuada, ligula vel rutrum tincidunt, leo erat sollicitudin tortor, ac semper lorem nunc in lacus. Vestibulum tincidunt dignissim blandit. Donec nisi ipsum, mattis non lectus ac, ullamcorper egestas leo.</p>
+                            </div>
+                            <div class="uk-padding card" style="border-bottom: 20px solid #404040;">
+                                <div>
+                                    <div class='uk-inline uk-margin-small-right' style="background-color: #404040; width: 20px; height: 20px;" ></div>
+                                    <h3 class="uk-inline uk-text-bold uk-margin-remove-top uk-margin-remove-bottom">Science Now and Then</h3>
+                                </div>
+                                <p class='uk-text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Sed feugiat interdum suscipit. Maecenas fringilla leo eu semper tincidunt. Ut ut imperdiet risus. Suspendisse quis varius tortor. Vivamus at commodo nulla. Mauris tristique sed massa a tincidunt. Sed sit amet neque nec diam pretium consequat ac vel dolor. Maecenas ligula risus, tempus ut lectus blandit, placerat consectetur risus. Maecenas malesuada, ligula vel rutrum tincidunt, leo erat sollicitudin tortor, ac semper lorem nunc in lacus. Vestibulum tincidunt dignissim blandit. Donec nisi ipsum, mattis non lectus ac, ullamcorper egestas leo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div id='body_content_3' class="uk-section uk-padding-remove-top">
+            
+            <div class='uk-grid' uk-grid>
+
+                <div id='icon_left' class='uk-width-auto uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+
+                <div class='uk-width-expand uk-padding-remove-left'>
+                        <h2 class='uk-text-bold uk-visible@m' uk-scrollspy="cls:uk-animation-slide-left;">Objectives</h2>
+                        <h2 class='uk-text-bold uk-hidden@m uk-margin-large-left' uk-scrollspy="cls:uk-animation-slide-left;">Objectives</h2>
+                        <div class='uk-grid-collapse' uk-grid>
+                            <div class='uk-width-1-2@m uk-margin-bottom'>
+                                <div>
+                                    <div class="uk-section uk-padding" style="background-color: #ffb400;">
+                                        <div class="uk-container">
+                                            <h3 class='uk-text-bold'>Inspire Passion for Science Among Youth</h3>
+                                            <div>
+                                                <p class='uk-text-justify' style="color: #404040;">
+                                                    ISYF aims to provide high-ability students with ample opportunities to share and discuss their
+                                                    interest in science, technology and science research. They will be exposed to many fields of
+                                                    science which will broaden their outlook and understanding of the scientific world. Nobel
+                                                    Laureates and eminent scientists will inspire them through stories of their own life experiences
+                                                    and scientific discoveries. These interactions will help create greater awareness among the
+                                                    youth about the importance of broad-based knowledge, keen curiosity, relentless tenacity and a
+                                                    global outlook when considering pursuing science as a meaningful and fulfilling endeavour.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="uk-section uk-padding uk-section-secondary uk-light">
+                                        <div class="uk-container">
+                                            <h3 class='uk-text-bold'>Establish Cooperation and Friendship amongst Young Talented Science Students</h3>
+                                            <div>
+                                                <p class='uk-text-justify'>Students will have many opportunities to interact in different cross-cultural groups and form strong bonds with each other throughout the forum. Activities are designed to promote mutual cooperation, understanding and appreciation of each others’ diverse cultures while sharing a common passion in science, technology and research.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- <div class="uk-section uk-padding" style="background-color: #ffb400;">
+                                        <div class="uk-container">
+                                            <h3 class='uk-text-bold'>Build Capacities of Science Educators</h3>
+                                            <div>
+                                                <p class='uk-text-justify' style="color: #404040;">Through professional sharing, training workshops, as well as networking with scientists and among Science educators, ISYF helps build the competencies of teachers. It will also serve as a valuable opportunity for schools to establish and develop close ties with one another and to explore the possibility of future collaborations.</p>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    
+                                    <div class="uk-section uk-padding" style="background-color: #ffb400;">
+                                        <div class="uk-container">
+                                            <h3 class='uk-text-bold'>Raise Singapore's profile as an International Hub for Science Education and Research</h3>
+                                            <div>
+                                                <p class='uk-text-justify' style="color: #404040;">Through engaging with Singapore’s own research scientists, ISYF<em style="color: #404040;">digital</em> gives participants first-hand insight into Singapore’s innovative capabilities, and an overview of the educational and research scene that supports these scientific endeavours.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class='uk-width-expand@m'>
+                                <!-- <div class="uk-section uk-padding-remove-top uk-padding">
+                                    <div class="uk-inline uk-margin-medium-left uk-margin-medium-right"  uk-scrollspy='cls: uk-animation-scale-up; delay:200;'>
+                                        <img class='uk-padding-large' style='border: 20px solid transparent;' data-src='images/objectives_icon.png' uk-img>
+                                        <div class='uk-position-bottom-left' style="background-color: transparent; border-bottom: 20px solid #FFB400; border-left: 20px solid #FFB400; height: 15%; width: 40%;" ></div>
+                                        <div class='uk-position-top-right' style="background-color: transparent; border-top: 20px solid #FFB400; border-right: 20px solid #FFB400; height: 15%; width: 40%;" ></div>
+                                    </div>
+                                </div> -->
+
+                                <div class="uk-section uk-padding-remove-top uk-padding">
+                                    <div class="uk-inline uk-margin-medium-left uk-margin-medium-right" uk-scrollspy='cls: uk-animation-scale-up; delay:200;'>
+                                        <img style='border-bottom: 20px solid transparent; border-left: 20px solid transparent;' data-src='images/obj1.png' style="width: 100%;" uk-img>
+                                        <div class='uk-position-bottom-left' style="background-color: transparent; border-bottom: 20px solid #404040; border-left: 20px solid #404040; height: 65%; width: 70%;" ></div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-section uk-padding-remove-top uk-padding-remove-bottom uk-padding">
+                                    <div class="uk-inline uk-margin-medium-left uk-margin-medium-right" uk-scrollspy='cls: uk-animation-scale-up; delay:200;'>
+                                        <img style='border-bottom: 20px solid transparent; border-right: 20px solid transparent;' data-src='images/obj2.png' style="width: 100%;" uk-img>
+                                        <div class='uk-position-bottom-right' style="background-color: transparent; border-bottom: 20px solid #FFB400; border-right: 20px solid #FFB400; height: 45%; width: 60%;" ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            </div>
+        </div>
+
+        <div id='body_content_4' class="uk-section uk-padding-remove-bottom">
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+
+                <div id='icon_left' class='uk-width-auto uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+                
+                <div class="uk-grid uk-width-expand uk-padding-remove-left uk-visible@m" uk-grid>
+                    <div id='body_content_1_image_column' class='uk-width-1-3@m uk-visible@m uk-padding-remove-left' uk-scrollspy="cls: uk-animation-slide-bottom;">
+                        <div class="uk-section uk-padding-remove-top">
+                            <div class="uk-inline uk-margin-medium-left uk-margin-medium-right">
+                                <img class="blacknwhite" style='border-bottom: 40px solid transparent; border-right: 40px solid transparent;' data-src='images/welcome_image.png' uk-img>
+                                <div class='uk-position-bottom-right' style="background-color: transparent; border-bottom: 40px solid #FFB400; border-right: 40px solid #FFB400; height: 45%; width: 45%;" ></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id='body_content_1_text_column' class='uk-width-2-3@m'>
+                        <div class='uk-container uk-padding-remove-left uk-padding-remove-right'>
+                            <div class='uk-margin-bottom uk-margin-right'>
+                                <h2 class='uk-text-bold uk-margin-remove-top'>Participation</h2>
+                                <p class='uk-text-lead uk-text-bold uk-margin-remove-bottom uk-margin-remove-top uk-text-justify' style="color: #FFB400;">Participation in ISYF is via invitation to selected schools across the globe.</p>
+                            </div>
+                            <div class='uk-grid' uk-grid>
+                                <div class='uk-width-auto'>
+                                    <div style="background-color: #FFB400; border-radius: 20px; height: 65%; width: 10px;" uk-parallax='y: 100px;'></div>
+                                </div>
+                                <div class='uk-width-expand' uk-scrollspy='cls: uk-animation-slide-right;'>
+                                    <div class='uk-inline-block uk-margin-small-bottom' >
+                                        <img class='uk-inline uk-margin-right' data-src='images/student.png' width='100px' uk-img/>
+                                        <h3 class='uk-inline uk-text-bold uk-margin-remove-bottom uk-margin-small-top'>Students</h3>
+                                    </div>
+                                    <div>
+                                        <p class='uk-text-justify'>The programme targets top science students from schools all over the world. Student participants from each school should meet the following criteria:</p>
+                                        <ul style="line-height:200%">
+                                            <li>Be between 16 and 17 years of age in 2021;</li>
+                                            <li>Be within the top tier of their respective Science cohorts;</li>
+                                            <li>Have substantial experience in science research or competitions;</li>
+                                            <li>Possess good oral proficiency in English; and</li>
+                                            <li>Possess enthusiasm and strong interest in forging ties with fellow students from all over the world.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class='uk-grid' uk-grid>
+                                <div class='uk-width-auto'>
+                                    <div style="background-color: #7494FF; border-radius: 20px; height: 65%; width: 10px;" uk-parallax='y: 100px;'></div>
+                                </div>
+                                <div class='uk-width-expand' uk-scrollspy='cls: uk-animation-slide-right;'>
+                                    <div class='uk-inline-block uk-margin-small-bottom'>
+                                        <img class='uk-inline uk-margin-right' data-src='images/educator_icon_about.png' width='100px' uk-img/>
+                                        <h3 class='uk-inline uk-text-bold uk-margin-remove-bottom uk-margin-small-top'>Educators</h3>
+                                    </div>
+                                    <div>
+                                        <p class='uk-text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Sed feugiat interdum suscipit. Maecenas fringilla leo eu semper tincidunt. Ut ut imperdiet risus. Suspendisse quis varius tortor. Vivamus at commodo nulla. Mauris tristique sed massa a tincidunt. Sed sit amet neque nec diam pretium consequat ac vel dolor. Maecenas ligula risus, tempus ut lectus blandit, placerat consectetur risus. Maecenas malesuada, ligula vel rutrum tincidunt, leo erat sollicitudin tortor, ac semper lorem nunc in lacus. Vestibulum tincidunt dignissim blandit. Donec nisi ipsum, mattis non lectus ac, ullamcorper egestas leo.</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div id='body_content_1_text_column' class='uk-margin-left uk-margin-right uk-hidden@m'>
+                    <div class='uk-container uk-padding-remove-left uk-padding-remove-right'>
+                        <div class='uk-margin-bottom uk-margin-right'>
+                            <h2 class='uk-text-bold uk-margin-remove-top'>Participation</h2>
+                            <p class='uk-text-lead uk-text-bold uk-margin-remove-bottom uk-margin-remove-top uk-text-justify' style="color: #FFB400;">Participation in ISYF is via invitation to selected schools across the globe.</p>
+                        </div>
+                        <div class='uk-grid' uk-grid>
+                            <div class='uk-width-auto'>
+                                <div style="background-color: #FFB400; border-radius: 20px; height: 65%; width: 10px;" uk-parallax='y: 100px;'></div>
+                            </div>
+                            <div class='uk-width-expand' uk-scrollspy='cls: uk-animation-slide-right;'>
+                                <div class='uk-inline-block uk-margin-small-bottom' >
+                                    <img class='uk-inline uk-margin-right' data-src='images/student.png' width='100px' uk-img/>
+                                    <h3 class='uk-inline uk-text-bold uk-margin-remove-bottom uk-margin-small-top'>Students</h3>
+                                </div>
+                                <div>
+                                    <p class='uk-text-justify'>The programme targets top science students from schools all over the world. Student participants from each school should meet the following criteria:</p>
+                                    <ul style="line-height:200%">
+                                        <li>Be between 16 and 17 years of age in 2021;</li>
+                                        <li>Be within the top tier of their respective Science cohorts;</li>
+                                        <li>Have substantial experience in science research or competitions;</li>
+                                        <li>Possess good oral proficiency in English; and</li>
+                                        <li>Possess enthusiasm and strong interest in forging ties with fellow students from all over the world.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class='uk-grid' uk-grid>
+                            <div class='uk-width-auto'>
+                                <div style="background-color: #7494FF; border-radius: 20px; height: 65%; width: 10px;" uk-parallax='y: 100px;'></div>
+                            </div>
+                            <div class='uk-width-expand' uk-scrollspy='cls: uk-animation-slide-right;'>
+                                <div class='uk-inline-block uk-margin-small-bottom'>
+                                    <img class='uk-inline uk-margin-right' data-src='images/educator_icon_about.png' width='100px' uk-img/>
+                                    <h3 class='uk-inline uk-text-bold uk-margin-remove-bottom uk-margin-small-top'>Educators</h3>
+                                </div>
+                                <div>
+                                    <p class='uk-text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus tempus lorem, at ullamcorper orci mattis et. Sed feugiat interdum suscipit. Maecenas fringilla leo eu semper tincidunt. Ut ut imperdiet risus. Suspendisse quis varius tortor. Vivamus at commodo nulla. Mauris tristique sed massa a tincidunt. Sed sit amet neque nec diam pretium consequat ac vel dolor. Maecenas ligula risus, tempus ut lectus blandit, placerat consectetur risus. Maecenas malesuada, ligula vel rutrum tincidunt, leo erat sollicitudin tortor, ac semper lorem nunc in lacus. Vestibulum tincidunt dignissim blandit. Donec nisi ipsum, mattis non lectus ac, ullamcorper egestas leo.</p>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            </div>
+        </div>
+
+        <div class='uk-margin-medium-top uk-padding-large uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom' style="background-color: #404040;">
+            <div class='uk-grid uk-padding-large uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom' uk-grid>
+                <div id='icon_left' class='uk-width-auto uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div>
+
+                <div class='uk-width-expand uk-padding-medium uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom'>
+                    <div class='uk-visible@m'>
+                        <h2 class='uk-text-bold' style="color: white;">Organisers</h2>
+                        <h4 class='uk-text-bold uk-light uk-margin-small-top'>International Science Youth Forum (ISYF) @ Singapore is organised by Hwa Chong Institution with the support of the Ministry of Education (MOE).</h4>
+                    </div>
+                    <div class='uk-hidden@m uk-padding'>
+                        <h2 class='uk-text-bold uk-margin-left' style="color: white;">Organisers</h2>
+                        <h4 class='uk-text-bold uk-light uk-margin-small-top uk-margin-left'>International Science Youth Forum (ISYF) @ Singapore is organised by Hwa Chong Institution with the support of the Ministry of Education (MOE).</h4>
+                    </div>
+                    <div class='uk-grid uk-visible@m uk-margin-medium-top uk-margin-left uk-margin-remove-left uk-padding-large uk-padding-remove-left uk-padding-remove-right' style="background-color: white;" uk-grid>
+                        <div class='uk-width-1-2@m uk-margin-remove-bottom uk-padding-remove-left uk-position-relative' style="min-height: 250px;"><img class='uk-position-center uk-padding' data-src='images/hwachonglogo.png' style="width: 100%; height: auto;" uk-img></div>
+                        <div class='uk-width-1-2@m uk-padding uk-align-center uk-margin-remove-top uk-margin-remove-bottom'><img class='uk-align-center' data-src='images/moelogo.png' style="width: 60%; height: auto;" uk-img></div>
+                    </div>
+                    <div class='uk-hidden@m uk-margin-medium-top uk-margin-left uk-margin-remove-left uk-padding-large uk-padding-remove-left uk-padding-remove-right' style="background-color: white;">
+                        <div class='uk-margin-remove-bottom uk-padding-remove-left'><img class='uk-align-center uk-padding' data-src='images/hwachonglogo.png' style="width: 60%; height: auto;" uk-img></div>
+                        <div class='uk-padding uk-align-center uk-margin-remove-top uk-margin-remove-bottom'><img class='uk-align-center' data-src='images/moelogo.png' style="width: 50%; height: auto;" uk-img></div>
+                    </div>
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left uk-visible@m'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div>
+            </div> 
+        </div>
+        <div class='uk-inline' style="background-color: #404040; width: 100%;">
+            <div class="uk-align-center uk-margin-remove-bottom uk-margin-top uk-padding uk-margin-bottom" style="width: fit-content;">
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
+                            <span class='material-icons' style="color: white;">room</span>
+                        </div>
+                        <div class="uk-inline uk-width-expand">
+                            <p class='uk-inline uk-light uk-text-break'>661 Bukit Timah Rd, Singapore 269734</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
+                            <span class='material-icons' style="color: white;">call</span>
+                        </div>
+                        <div class="uk-inline uk-width-expand">
+                            <p class='uk-inline uk-light'>+65 6468 3955</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-width-auto uk-margin-auto-vertical">
+                            <span class='material-icons' style="color: white;">email</span>
+                        </div>
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-expand">
+                            <p class='uk-inline uk-light'>reach_isyf@student.hci.edu.sg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
+                            <span class='material-icons' style="color: white;">print</span>
+                        </div>
+                        <div class="uk-inline uk-width-auto">
+                            <p class='uk-inline uk-light'>Fax: 6769 5857</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-padding-large uk-padding-remove-top uk-padding-remove-bottom">
+                <p class="uk-padding uk-text-center uk-padding-remove-top uk-padding-remove-bottom">This is the ISYF (International Science Youth Forum) 2021 website. Any advice and information found on the pages are solely for the event and educational purposes only. Information related to the speakers are displayed with their consent. <br><br> <span style="font-size: 80%;"> © International Science Youth Forum 2021. All rights reserved. </span> </p>
+            </div>
+        </div>
+        <script src='js/main.js'></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                //The first argument are the elements to which the plugin shall be initialized
+                //The second argument has to be at least a empty object or a object with your desired options
+                OverlayScrollbars(document.querySelectorAll("body"), { });
+            });
+        </script>
+
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <script type="text/javascript" src="node_modules/overlayscrollbars/js/OverlayScrollbars.js"></script>
+    </body>
+</html> 
