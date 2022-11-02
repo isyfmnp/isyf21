@@ -1,2 +1,2 @@
-# ISYFWeb
-Website for ISYF 2021
+# ISYF 2021 Website
+Made by IRS
